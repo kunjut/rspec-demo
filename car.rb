@@ -14,7 +14,7 @@ class Car
 
   
   def range                     # как далеко мы сможем проехать
-    0
+    @fuel * MILES_PER_GALLON
   end
 
 end
